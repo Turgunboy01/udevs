@@ -39,6 +39,7 @@ const Goodzone = () => {
   return (
     <div
       className="py-20"
+      id="goodzone"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       <div className="max-w-[1170px] mx-auto px-5 items-center flex justify-between">

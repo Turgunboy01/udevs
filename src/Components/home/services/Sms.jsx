@@ -27,6 +27,7 @@ const Sms = () => {
   return (
     <div
       className="py-20"
+      id="sms"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       <div className="max-w-[1170px] mx-auto px-5 items-center flex justify-between">

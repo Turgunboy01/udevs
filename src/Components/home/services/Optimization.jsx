@@ -48,7 +48,7 @@ const sydtems = [
 
 const Optimization = () => {
   return (
-    <div className="bg-[#f4f7ff] py-[80px]">
+    <div className="bg-[#f4f7ff] py-[80px]" id="optimization">
       <div className="max-w-[1170px] mx-auto px-5">
         <h1 className="text-[64px] font-semibold leading-[64px]  text-[#1b5bf7]">
           Optimization Infrastructure

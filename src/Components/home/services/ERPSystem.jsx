@@ -43,13 +43,16 @@ const sydtems = [
 
 const ERPSystem = () => {
   return (
-    <div className="bg-[#f4f7ff] py-[80px]">
+    <div className="bg-[#f4f7ff] py-[80px]" id="system">
       <div className="max-w-[1170px] mx-auto px-5">
         <h1 className="text-[64px] font-semibold leading-[64px] mb-8 text-[#1b5bf7]">
           ERP Systems
         </h1>
         <div className="flex justify-between  pt-5">
-          <div className="w-[48%]  h-[430px] flex justify-center items-center" style={{ backgroundImage: `url(${bg})` }}>
+          <div
+            className="w-[48%]  h-[430px] flex justify-center items-center"
+            style={{ backgroundImage: `url(${bg})` }}
+          >
             <img src={stystem} alt="" />
           </div>
           <div className="w-[40%]">

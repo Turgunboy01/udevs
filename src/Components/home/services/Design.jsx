@@ -50,6 +50,7 @@ const Design = () => {
   return (
     <div
       className="relative"
+      id="design"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       {/* <div className=""></div> */}

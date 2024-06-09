@@ -16,3 +16,10 @@ li {
 html {
   scroll-behavior: smooth;
 }
+
+.active {
+  /* color: red; */
+  border-bottom: 3px solid #1b5bf7;
+}
+
+

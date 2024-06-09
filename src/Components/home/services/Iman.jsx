@@ -28,6 +28,7 @@ const Iman = () => {
   return (
     <div
       className="py-20"
+      id="iman"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       <div className="max-w-[1170px] mx-auto px-5 items-center flex justify-between">
