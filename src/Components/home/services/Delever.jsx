@@ -40,6 +40,7 @@ const Delever = () => {
   return (
     <div
       className="py-20"
+      id="delever"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       <div className="max-w-[1170px] mx-auto px-5 items-center flex justify-between">
@@ -48,7 +49,7 @@ const Delever = () => {
         </div>
         <div className="w-[48%]">
           <h2 className=" mb-[60px] ">
-            <img src={logo} alt=""  />
+            <img src={logo} alt="" />
           </h2>
           <div className="bg-[#ffddd3] py-2 px-4 w-[125px] mt-[10px] rounded-full text-[#ff5722] flex items-center gap-2 ">
             <img src={car} alt="" />

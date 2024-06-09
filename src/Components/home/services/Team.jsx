@@ -1,7 +1,7 @@
 import team from "../../../assets/team.svg";
 const Team = () => {
   return (
-    <div className="bg-[#f4f7ff] py-[80px]">
+    <div className="bg-[#f4f7ff] py-[80px]" id="team">
       <div className="max-w-[1170px] mx-auto px-5 ">
         <h1 className="text-[64px] font-semibold leading-[64px] mb-8 text-[#1b5bf7]">
           Team

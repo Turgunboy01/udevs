@@ -14,7 +14,7 @@ const Mobile = () => {
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       {/* <div className=""></div> */}
-      <div className="max-w-[1170px] mx-auto px-5 py-[80px]">
+      <div className="max-w-[1170px] mx-auto px-5 py-[80px]" id="mobile">
         <h1 className="text-[64px] font-semibold leading-[64px] mb-8 text-[#1b5bf7]">
           Development of mobile <br /> applications
         </h1>

@@ -33,7 +33,7 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="max-w-[1170px] mx-auto py-[100px] px-5">
+    <div className="max-w-[1170px] mx-auto py-[100px] px-5" id="services">
       <h1 className="text-[64px] font-extrabold pb-[50px] text-[#1b5bf7]">
         Our services
       </h1>

@@ -15,7 +15,7 @@ import img13 from "../../../public/marquee/shep.svg";
 import img14 from "../../../public/marquee/maxtrack.svg";
 const Marque = () => {
   return (
-    <>
+    <div id="clients">
       <div className="max-w-[1170px] mx-auto px-5 py-[80px]">
         <h1 className="text-[64px] font-semibold leading-[64px]  text-[#1b5bf7]">
           Our clients
@@ -99,7 +99,7 @@ const Marque = () => {
           />
         </div>
       </Marquee>
-    </>
+    </div>
   );
 };
 

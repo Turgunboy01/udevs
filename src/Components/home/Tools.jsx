@@ -36,7 +36,7 @@ const Tools = () => {
   };
 
   return (
-    <div className="py-[80px] bg-[#f4f7ff]">
+    <div className="py-[80px] bg-[#f4f7ff]" id="tools">
       <div className="max-w-[1170px] mx-auto px-5 ">
         <h2 className="text-[64px] font-semibold leading-[64px] mb-8 text-[#1b5bf7]">
           Tools
