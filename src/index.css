@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Typewriter {
+  span {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1b5bf7 ;
+    width: 60% !important;
+  }
+}
+li {
+  list-style: none;
+}
