@@ -1,4 +1,5 @@
 import Contacts from "../Components/home/Contact";
+import Email from "../Components/home/Email";
 import Hero from "../Components/home/Hero";
 import Marque from "../Components/home/Marque";
 import OurServices from "../Components/home/OurServices";
@@ -17,7 +18,6 @@ import Team from "../Components/home/services/Team";
 const Home = () => {
   return (
     <div>
-      {/* <Scrollspy> */}
       <Hero />
       <OurServices />
       <Team />
@@ -34,8 +34,7 @@ const Home = () => {
       <Iman />
       <Works />
       <Contacts />
-      {/* <Contact /> */}
-      {/* </Scrollspy> */}
+      <Email />
     </div>
   );
 };

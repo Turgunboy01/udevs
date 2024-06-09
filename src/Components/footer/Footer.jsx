@@ -20,13 +20,11 @@ const Footer = () => {
                 smooth={true}
                 style={{ border: "none" }}
                 duration={500}
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
               >
-                <a
-                  href="#"
-                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
-                >
+                
                   Direction
-                </a>
+               
               </Link>
             </li>
             <li>
@@ -37,14 +35,12 @@ const Footer = () => {
                 smooth={true}
                 style={{ border: "none" }}
                 duration={500}
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
               >
-                <a
-                  href=""
-                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
-                >
+                
                   Command
-                </a>
-              </Link>
+              
+             </Link>
             </li>
             <li>
               <Link
@@ -54,13 +50,11 @@ const Footer = () => {
                 smooth={true}
                 style={{ border: "none" }}
                 duration={500}
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
               >
-                <a
-                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
-                  href=""
-                >
+                
                   Tools
-                </a>
+              
               </Link>
             </li>
             <li>
@@ -71,18 +65,16 @@ const Footer = () => {
                 smooth={true}
                 style={{ border: "none" }}
                 duration={500}
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
               >
-                <a
-                  href=""
-                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
-                >
+               
                   Clients
-                </a>
+               
               </Link>
             </li>
           </div>
           <div className="">
-            <h3 className="text-[20px] font-semibold mb-[15px]">Services </h3>
+            <h3 className="text-[20px] cursor-pointer font-semibold mb-[15px]">Services </h3>
             <li>
               <Link
                 activeClass="active"
@@ -90,7 +82,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Development of mobile applications
@@ -104,7 +96,7 @@ const Footer = () => {
                 smooth={true}
                 style={{ border: "none" }}
                 duration={500}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
               >
                 Development and implementation ERP systems
               </Link>
@@ -116,7 +108,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 User interface, User experience design
@@ -129,7 +121,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 IT consulting
@@ -142,7 +134,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Optimization IT consulting infrastructure
@@ -150,7 +142,7 @@ const Footer = () => {
             </li>
           </div>
           <div className="">
-            <h3 className="text-[20px] font-semibold mb-[15px]">Portfolio</h3>
+            <h3 className="text-[20px] cursor-pointer font-semibold mb-[15px]">Portfolio</h3>
             <li>
               <Link
                 activeClass="active"
@@ -158,7 +150,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Delever
@@ -172,7 +164,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Sms.uz
@@ -185,7 +177,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Goodzone
@@ -198,7 +190,7 @@ const Footer = () => {
                 spy={true}
                 smooth={true}
                 style={{ border: "none" }}
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                className="text-[18px] cursor-pointer leading-[32px] hover:underline text-[#1b5bf7]"
                 duration={500}
               >
                 Iman
