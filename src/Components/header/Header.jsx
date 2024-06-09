@@ -258,9 +258,18 @@ const Header = () => {
               </li>
             </div>
           </li>
-          <button className="text-[16px] font-bold rounded-lg bg-[#1b5bf7] px-6 py-2 text-[#fff]">
-            Contact
-          </button>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            style={{ border: "none" }}
+            duration={500}
+          >
+            <button className="text-[16px] font-bold rounded-lg hover:scale-105 duration-300  bg-[#1b5bf7] px-6 py-2 text-[#fff]">
+              Contact
+            </button>
+          </Link>
         </div>
       </div>
     </div>

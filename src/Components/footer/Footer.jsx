@@ -1,6 +1,7 @@
 import { FiInstagram } from "react-icons/fi";
 import logo from "../../assets/logo.svg";
 import { FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from "react-scroll";
 const Footer = () => {
   return (
     <div className="bg-[#f4f7ff] pt-[50px]">
@@ -12,114 +13,196 @@ const Footer = () => {
           <div className="">
             <h3 className="text-[20px] font-semibold mb-[15px]">About us</h3>
             <li>
-              <a
-                href="#"
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+              <Link
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
+                duration={500}
               >
-                Direction
-              </a>
+                <a
+                  href="#"
+                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                >
+                  Direction
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href=""
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+              <Link
+                activeClass="active"
+                to="team"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
+                duration={500}
               >
-                Command
-              </a>
+                <a
+                  href=""
+                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                >
+                  Command
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
-                href=""
+              <Link
+                activeClass="active"
+                to="tools"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
+                duration={500}
               >
-                Tools
-              </a>
+                <a
+                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                  href=""
+                >
+                  Tools
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href=""
-                className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+              <Link
+                activeClass="active"
+                to="clients"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
+                duration={500}
               >
-                Clients
-              </a>
+                <a
+                  href=""
+                  className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                >
+                  Clients
+                </a>
+              </Link>
             </li>
           </div>
           <div className="">
             <h3 className="text-[20px] font-semibold mb-[15px]">Services </h3>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="mobile"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Development of mobile applications
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="system"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
+                duration={500}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
               >
                 Development and implementation ERP systems
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="design"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 User interface, User experience design
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="consulting"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 IT consulting
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="optimization"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Optimization IT consulting infrastructure
-              </a>
+              </Link>
             </li>
           </div>
           <div className="">
             <h3 className="text-[20px] font-semibold mb-[15px]">Portfolio</h3>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="delever"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Delever
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              {" "}
+              <Link
+                activeClass="active"
+                to="sms"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Sms.uz
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="goodzone"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Goodzone
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                activeClass="active"
+                to="iman"
+                spy={true}
+                smooth={true}
+                style={{ border: "none" }}
                 className="text-[18px] leading-[32px] hover:underline text-[#1b5bf7]"
+                duration={500}
               >
                 Iman
-              </a>
+              </Link>
             </li>
           </div>
         </div>

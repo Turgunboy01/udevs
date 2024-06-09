@@ -6,7 +6,6 @@ import img1 from "../../../public/work/location.svg";
 import img2 from "../../../public/work/phone.svg";
 import img3 from "../../../public/work/email.svg";
 import {
-  FaFacebook,
   FaFacebookSquare,
   FaInstagram,
   FaTwitter,
@@ -22,6 +21,7 @@ const Contacts = () => {
   return (
     <div
       className="py-20"
+      id="contact"
       style={{ backgroundImage: `url(${bg})`, backgroundSize: "cover" }}
     >
       <div className="max-w-[1170px] mx-auto px-[80px] py-20 shadow-xl border rounded-xl my-[80px] bg-white ">
